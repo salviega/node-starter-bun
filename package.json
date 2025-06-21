@@ -1,5 +1,5 @@
 {
-	"name": "node-starter-bun",
+	"name": "zk-dao-backend-zk",
 	"module": "src/index.ts",
 	"type": "module",
 	"private": true,
@@ -10,18 +10,26 @@
 		"start:dev": "bun run src/index.ts"
 	},
 	"dependencies": {
-		"openai": "^5.0.1"
+		"@aztec/bb.js": "^0.87.9",
+		"@noir-lang/acvm_js": "^1.0.0-beta.7",
+		"@noir-lang/noir_js": "^1.0.0-beta.7",
+		"@noir-lang/noirc_abi": "^1.0.0-beta.7",
+		"express": "^5.1.0",
+		"openai": "^5.6.0",
+		"poseidon-lite": "^0.3.0"
 	},
 	"devDependencies": {
-		"@types/bun": "^1.2.15",
+		"@types/bun": "^1.2.16",
+		"@types/express": "^5.0.3",
 		"dotenv": "^16.5.0",
-		"eslint": "^9.27.0",
+		"eslint": "^9.29.0",
 		"eslint-config-prettier": "^10.1.5",
-		"eslint-plugin-prettier": "^5.4.1",
+		"eslint-plugin-prettier": "^5.5.0",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
 		"eslint-plugin-unused-imports": "^4.1.4",
+		"nodemon": "^3.1.10",
 		"prettier": "^3.5.3",
 		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.33.0"
+		"typescript-eslint": "^8.34.1"
 	}
 }
